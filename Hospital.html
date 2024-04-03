@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+         h1{
+            font-size: 19px;
+         }
+        header {
+            display:flex;
+            justify-content: space-between;
+            background-color: skyblue;
+            color:black;
+            text-align: center;
+            text-decoration: none;
+            padding: 5px;
+            width:100%;
+           
+        }
+        a{
+            text-decoration: none;
+            color:black;
+            text-align: center;
+            margin-top: 7px;
+        }
+        
+        nav {
+            background-color: #eee;
+            padding:5px;
+            text-align: end;
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+        }
+        .logo{
+            padding-right: 45px;
+        }
+        strong{
+            padding:0 10px;
+            margin-right: 9px;
+            color:#fff;
+            background-color: rgb(16, 204, 218);
+        }
+        nav a {
+            text-decoration: none;
+            color: #f02d13;
+            border-radius: 5px;
+            
+        }
+        nav:hover a{
+            border-bottom:1px solid red;
+            color:blue;
+        }
+        section {
+            padding: 20px;
+            background-image: url("360_F_612895290_5m4XeQsdmekGhrRlgId6HB3jfPkKvzwq.jpg");
+            background-position: top;
+            background-size: cover;
+            position: relative;
+        }
+       .primary,
+       .Immidiate,
+       .All{
+        background-color: #fff;
+        margin: 20px;
+        padding:30px;
+        border-radius: 15px;
+       text-align: center;
+       }
+       
+       button{
+       margin-left: 180px;
+       margin-top: 10px;
+       border-radius:3px;
+       padding: 3px;
+       font-family: Arial, Helvetica, sans-serif;
+       color: aliceblue;
+       background-color:blue;
+       border:2px solid blue;
+       }
+       button:hover{
+        background-color: green;
+        color:#fff;
+        cursor: pointer;
+       }
+        footer {
+            background-color:rgb(88, 88, 87);
+            color: #fff;
+            padding: 10px;
+            
+            width: 100%;
+        }
+         ul {
+            list-style-type: none;
+            margin: 0;
+            padding:0;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+        .globe{
+            margin:6px 0;
+            padding:5px 0;
+        }
+        .globe ul {
+            color:#fff;
+            display: none;
+            list-style-type: none;
+            margin:6px 0;
+            padding:5px 0;
+        }
+
+        .globe:hover ul {
+            display:flex;
+            flex-direction: column;
+            gap:8px;
+            padding: 10px;
+        }
+        .search-bar{
+            display: inline-block;
+            margin-right: 20px;
+            color:black;
+            font-weight: bold;
+        }
+        .search-bar input{
+            padding: 5px;
+            border:1px solid black;
+            border-radius: 5px;
+        }
+        .care, .health-info{
+            display:flex;
+            flex-direction:column;
+            text-decoration: none;
+
+        }
+        h4, h2,p{
+            padding: 6px 0;
+
+        }
+        h2{
+            margin-left: 146px;
+        }
+        .data,l{
+             margin-bottom: 8px;
+
+        }
+        .data2{
+            display:flex;
+            justify-content: space-between;
+        }
+        .data2, l{
+            border-right: 3px solid white;
+            margin-right: 2px;
+            padding: 2px;
+        }
+        .slogen{
+            margin-bottom: 20px;
+        }
+        main{
+            position: fixed;
+            width:100%;
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+    <nav>
+        <h1 class="logo"><strong>AIEG</strong>MULTI-SPECIALIST</h1>
+
+        <a href="About.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <header>
+        <h1>&phone;310-825-2631</h1>
+            
+                
+            
+            <lable class="search-bar" style="margin-right: 8px;">Search here
+            <input type="text" name="search...">
+            </lable>
+    </header>
+</main>
+   
+    <img src="AIG.JPEG" alt="MULTI-SPECIALIST HOSPITAL"
+    width="100%"
+    height="500px">
+    <section><div class="primary">
+          <h2>Primary Care</h2>
+          <p>Looking for a Primary physician for yourself or your family? Start here.</p>
+          <button>Find Primary Care</button></div>
+          <div class="Immidiate">
+        <h2 >Immediate Care</h2>
+        <p>If you are ill or injured and need immediate medical attention.</p>
+        <a href="#" style="margin-left: 175px; color:black;font-weight: bold;
+         padding:12px; text-decoration: none;">See wait times &rarr;</a><br>
+        <button style="background-color: orangered; border:2px solid orangered">Find Immediate care</button>
+        </div>
+        <div class="All">
+            <h2>All Locations</h2>
+            <p>Search for Specialty care,clinics and services across South India.</p>
+            <button>Find a Location</button>
+        </div>
+    </section>
+
+    <footer>
+        <h1 class="logo1"><strong>AIEG</strong>Health</h1>
+        <h3 class="icons">&#128247; &#128172; &#128420; &#128250; &#128100; </h3>
+        <div class="info"><p>International Services</p>
+        <p>Regional Sites</p></div>
+        <ul class="care">
+            <li class="globe">Find Care
+            <ul style="border-bottom: 1px solid white;">
+            <li>Find a Doctor</li>
+            <li>Find a Location</li>
+            <li>Immidiate Care</li>
+            <li>Emergency Care</li>
+            <li>Make an Appointment</li>
+            <li>Medical Services</li>
+            </ul>
+            </li>
+            
+            <li class="globe">Patient Resorces
+                <ul style="border-bottom: 1px solid white;">
+                    <li>Prepare for your Test</li>
+                    <li>Visitor Guodelines</li>
+                    <li>Patient Education</li>
+                    <li>Billing &Insurance</li>
+                    <li>Price Transparency</li>
+                    <li>Support &Information</li>
+                </ul></li>
+            <li class="globe">Treatment Options
+                <ul style="border-bottom: 1px solid white;">
+                <li>COVID-19 Info</li>
+                <li>Wellness& Routine Care</li>
+                <li>Crinical Trails</li>
+                </ul>
+                </li>
+            <li class="globe">Discover AIEG Health
+                <ul style="border-bottom: 1px solid white;">
+                <li>About AIEG Health</li>
+                <li>Departments</li>
+                <li>Patient Stories</li>
+                <li>For Healthcare professionals</li>
+                <li>Equity,Diversity&Inclusion</li>
+                <li> Contact Media Team</li>
+                <li>Donate to AIEG Health</li>
+                <li>Work at AIEG Health</li>
+                <li>Volunteer for AIEG Health</li>
+                <li>Share Your Experience</li>
+                <li>Subscribe to our Newsletter</li>
+                <li>Read our Publications</li>
+                </ul></li>
+            </ul>
+            <div>
+            <h3>Get the AIEG Health App</h3>
+            <img src="app-store-badge.png"
+            width="105px" height="40px"><br>
+            <img src="google-play-badge.png"
+            width="105px" height="40px"></div>
+            <h4>View all AIEG Health Apps<h4>
+            <div class="data">
+                <p>My AIEG Health</p><br>
+                <p>Community & Equity</p><br>
+                <p>News & Insights</p><br>
+                <p>Your Feedback</p><br>
+                <p>Contact Us</p>
+            </div>
+               <div class="data2">
+                    <l>HIPAA Notice</l><br>
+                    <l>Privacy Notice</l><br>
+                    <l>Nondiscrimination</l><br>
+                    <l>Report Misconduct</l><br>
+                </div>
+             <p class="slogen">We listen. We care.</p>
+            <p style="text-align: center;">&copy; 2023 AIEG Hospital. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
